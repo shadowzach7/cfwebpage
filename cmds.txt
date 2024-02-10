@@ -1,0 +1,2 @@
+"build-css": "tailwindcss -i ./css/tailwind.css -o ./dist/styles.css --watch"
+"build-css": "tailwindcss -i ./css/tailwind.css -o ./dist/styles.css --minify" - for CF
