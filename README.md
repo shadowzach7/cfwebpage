@@ -1,2 +1,2 @@
 # cfwebpage
-cloudflare static webpage
+Static webpage made for cloudflare pages
