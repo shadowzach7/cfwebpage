@@ -4,7 +4,7 @@
   "description": "Static webpage made for cloudflare pages",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./css/tailwind.css -o ./dist/styles.css"
+    "build-css": "tailwindcss -i ./css/tailwind.css -o ./dist/styles.css --minify"
   },
   "keywords": [],
   "author": "",
