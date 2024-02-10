@@ -1,7 +1,16 @@
 /* styles.css */
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     background-color: #121212;
     color: #ffffff;
+}
+
+/* Flexbox layout for the main content to push the footer down */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .navbar {
@@ -16,12 +25,14 @@ body {
     color: #bbbbbb;
 }
 
+/* Content container */
 .container {
-    min-height: 100vh;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 60px;
 }
 
 h1 {
@@ -43,12 +54,11 @@ p {
     background-color: #0056b3;
 }
 
+/* Footer styles */
 footer {
     background-color: #212529;
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
